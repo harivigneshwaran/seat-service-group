@@ -24,7 +24,6 @@ public class SeatService {
 
     public String lockSeats(List<String> seatIds) {
         System.out.println("lockSeats Serv---->"+seatIds);
-
         for (String seatId : seatIds) {
             System.out.println("for loop Serv---->"+seatId);
 
